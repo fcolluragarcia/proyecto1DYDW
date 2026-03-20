@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SANTA LUCIA POLICE DEPARTMENT</title>
+</head>
+<body>
+    <header>
+        <h1>Santa Lucia Police Department</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Main Page</a>
+                </li>
+                <li>
+                    Report a Missing Person
+                </li>
+                <li>
+                    <a href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <h2>Have You Seen Me?</h2>
+    </header>
+    <main>
+        <h2>Report a Missing Person</h2>
+        <form action="submit_report.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+            <button type="submit">Submit Report</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; United States National Security Administration. 2026 All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
